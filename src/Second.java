@@ -7,6 +7,7 @@ public class Second
 		// added by surface
 		
 		sayGreeting();
+		Third.sayHi();
 
 	}
 	
