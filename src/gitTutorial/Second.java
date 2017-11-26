@@ -7,9 +7,15 @@ public class Second
 	{
 		// added by surface
 		
-		sayGreeting();
-		Third.sayHi();
+		//sayGreeting();
+		Third t1 = new Third();
+		t1.sayHi();
 
+		Third t2 = new Third();
+		t2.sayHi();
+		
+		Third t3 = new Third();
+		t3.sayHi();
 	}
 	
 	//added by acer

@@ -3,7 +3,25 @@ package gitTutorial;
 public class Third
 {
 	//class added by surface
-	public static void sayHi()
+	
+	static int count;
+	
+	//static 
+	{
+		count++;
+		System.out.println(" block running :"+count);
+	}
+	
+	
+	
+	public Third()
+	{
+		System.out.println("Third Class Constructor called");
+	}
+
+
+
+	public void sayHi()
 	{
 		System.out.println("Hi Hi");
 		System.out.printf("%1$s %n","hello");
