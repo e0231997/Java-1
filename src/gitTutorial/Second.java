@@ -17,6 +17,7 @@ public class Second
 		Third t3 = new Third();
 		t3.sayHi();
 		
+		t3.sayHello();
 		t3.sayBye();
 		
 		

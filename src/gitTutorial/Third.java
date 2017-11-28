@@ -28,6 +28,11 @@ public class Third
 		System.out.println(String.format("%1$s","hello"));
 	}
 	
+	public void sayHello()
+	{
+		System.out.println("Hello from acer");
+	}
+	
 	public void sayBye()
 	{
 		System.out.println("Bye Bye from surface");
