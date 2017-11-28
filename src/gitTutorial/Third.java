@@ -27,5 +27,10 @@ public class Third
 		System.out.printf("%1$s %n","hello");
 		System.out.println(String.format("%1$s","hello"));
 	}
+	
+	public void sayBye()
+	{
+		System.out.println("Bye Bye from surface");
+	}
 }
 

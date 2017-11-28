@@ -16,6 +16,10 @@ public class Second
 		
 		Third t3 = new Third();
 		t3.sayHi();
+		
+		t3.sayBye();
+		
+		
 	}
 	
 	//added by acer
